@@ -1,0 +1,36 @@
+{
+    "name": "oxilao/tools",
+	"type": "library",
+    "description": "the \"FrameworkPHP_7 of ModernApp\". ",
+	"license": "MIT",
+	"homepage": "https://github.com/",
+	"keywords": [],
+	"authors": [
+		{
+			"name":  "phpGerbill", 
+			"email": "phpGerbill@o2.pl" 
+		}
+	],
+	
+    "require": {
+        "php": "^7.0"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "4.0.0"
+	},
+	
+	"autoload": {
+		"psr-4": { "Oxilao\\Component\\Console\\": "" },
+		"exclude-from-classmap": [
+            "/Tests/"
+        ]
+	},
+	
+	"minimum-stability": "dev",
+	"version": "1.0.0",
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	}
+}
